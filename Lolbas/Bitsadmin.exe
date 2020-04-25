@@ -1,0 +1,1 @@
+index = * sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 (CommandLine="*bitsadmin" AND CommandLine="*\\system32\\cmd.exe*" AND (CommandLine="*/create*" OR CommandLine="*/addfile" OR CommandLine="*:cmd.exe*" OR CommandLine="*/complete*) ParentImage="*System32\\cmd.exe" (ParentCommandLine="*cmd.exe*" OR ParentCommandLine="*powershell.exe*") 
