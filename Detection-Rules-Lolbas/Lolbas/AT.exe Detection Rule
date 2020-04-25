@@ -1,0 +1,1 @@
+index=* sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" ((CommandLine="*Windows\System32\at.exe" OR CommandLine=" */interactive* " OR CommandLine="*revshell.exe*") EventCode=1 EventType=4 ParentImage="*System32\\cmd.exe") //OR ( EventCode=12 TargetObject="Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree\At1" )
