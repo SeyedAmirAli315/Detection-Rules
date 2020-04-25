@@ -1,0 +1,5 @@
+Category :  |===| credential access (LC) |===|
+Language : SPL
+Mitre ATT&CK ID : T1179
+
+index=* EventCode=1 Image="*mavinject.exe*" CommandLine="*/INJECTRUNNING*" ParentImage="*powershell.exe*" 
