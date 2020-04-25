@@ -1,0 +1,7 @@
+Category : |====| collection  |====|
+Language : SPL
+Mitre ATT&CK ID : T1115
+
+
+index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 Image="*clip.exe*"  CommandLine="C:\Windows\system32\clip.exe" ParentImage:"*powershell.exe*" 
+
