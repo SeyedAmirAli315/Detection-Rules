@@ -1,0 +1,1 @@
+index = * sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 Image="*WINDOWS\\System32\\cmstp.exe" (CommandLine="cmstp.exe*" AND (CommandLine="*/ni*" OR CommandLine="*/s")) ParentImage="*System32\\cmd.exe*" ParentCommandLine="\"*\\WINDOWS\\system32\\cmd.exe\""
