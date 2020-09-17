@@ -1,7 +1,0 @@
-Category : |====| collection  |====|
-Language : SPL
-Mitre ATT&CK ID : T1123
-
-
-
-index=*  source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 Image="*Powershell.exe*" (CommandLine="*powershell.exe*" AND CommandLine="*WindowsAudioDevice-Powershell-Cmdlet*") ParentImage="*cmd.exe*"  
