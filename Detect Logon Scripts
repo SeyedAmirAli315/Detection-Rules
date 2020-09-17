@@ -1,5 +1,0 @@
-Category : |====| LatralMovement |====|
-Language : SPL
-Mitre ATT&CK ID : T1037
-
-index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1  Image="C:\\WINDOWS\\System32\\reg.exe" (CommandLine="*REG.exe*" AND CommandLine="*/v*" AND CommandLine="*UserInitMprLogonScript*" AND CommandLine="*/t*" AND CommandLine="*REG_MULTI_SZ*") ParentImage:"*cmd.exe*" 
