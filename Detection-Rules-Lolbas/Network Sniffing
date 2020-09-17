@@ -1,4 +1,0 @@
-Category : |===| credential access (LC) |===|
-Language : SPL
-MITRE ATT&CK ID: T1040
-index = *   source="WinEventLog:Microsoft-Windows-Sysmon/Operational"   EventCode=5 Image="*cmd.exe*" CommandLine = "*tshark.exe*" OR CommandLine = "*c:\windump.exe*" 
