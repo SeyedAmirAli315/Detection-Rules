@@ -1,6 +1,0 @@
-Category : |====| LatralMovement |====|
-Language :  SPL
-Mitre ATT&CK ID :T1028
-
-
-index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational" (EventCode=1  ((CommandLine:"*wmic*" AND CommandLine:"*/user*" AND CommandLine:"*/password*" AND CommandLine:"*create*") AND EventCode=12 targetobject:"HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\osk.exe\")  OR EventCode=1(CommandLine:"*psexec.exe*" AND CommandLine:"*-p*" AND CommandLine:"*-s*") ParentCommandLine:"*cmd.exe*"|====| LatralMovement |====|
