@@ -1,5 +1,0 @@
-Category : |====| LatralMovement |====|
-Language : SPL
-Mitre ATT&CK ID : T1105
-
-index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 Image:"*certutil.exe*" (CommandLine:"*certutil* AND CommandLine:"*-urlcache*" AND CommandLine:"*-split*" AND CommandLine:"*-f*" ) ParentImage:"*cmd.exe*"
