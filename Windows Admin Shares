@@ -1,6 +1,0 @@
-Category : |====| LatralMovement |====|
-Language : SPL
-Mittre ATT&CK ID: T1077
-
-
-index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1  ((CommandLine:"*cmd.exe*" AND CommandLine:"*/c*" AND CommandLine:"*net*") OR (CommandLine:"*psexec.exe*" AND CommandLine:"*-c*") OR (CommandLine:"*cmd.exe*" AND CommandLine:"*/Q*" AND CommandLine:"*/c*" ))  ParentCommandLine:"*cmd.exe*"
