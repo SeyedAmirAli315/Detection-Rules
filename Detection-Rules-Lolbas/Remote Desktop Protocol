@@ -1,5 +1,0 @@
-Category : |====| LatralMovement |====|
-Language : SPL
-Mitre ATT&CK ID : T1076
-
-index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 Image="*sc.exe*" (CommandLine:"*delete*" OR (CommandLine:"C:\\WINDOWS\\system32\\net1" AND CommandLine:"*start*") OR (CommandLine:"*sc.exe*" AND CommandLine:"*create*"  AND CommandLine:"*/k*" AND CommandLine:"*dest:rdp-tcp*"))  ParentCommandLine:"*cmd.exe*"
