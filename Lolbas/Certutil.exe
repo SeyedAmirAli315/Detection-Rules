@@ -1,0 +1,1 @@
+index = * sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 EventType=4 Image="*System32\\certutil.exe" OriginalFileName:"CertUtil.exe" (CommandLine="*CertUtil.exe* AND CommandLine="*-urlcache*" AND CommandLine="*-f*) ParentCommandLine="*System32\\cmd.exe"
